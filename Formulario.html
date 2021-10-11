@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Formulário de emprego</title>
+	</head>
+	<body>
+		<h1>Técnico De Instalação - Chapecó - Sc</h1>
+		<h2>Descrição da vaga:</h2>
+		<h4>-Empresa confidencial.<br>
+			-Salário: R$2.000,00(Bruto Mensal).<br>
+			-Horário de serviço: Segunda à sexta 07:00 às 16:00, 40 horas semanis.<br>
+			-Horário de Almoço: 12:00 às 13:00, 1 hora de almoço por dia.<br>
+			-Área e especialização profissional: Construção, Manutenção - Instalações em Geral<br>
+			-Atendimento técnico em nossa base de clientes, garantindo satisfação do cliente, padrão técnico e normas de segurança do trabalho.<br>
+			-Visitas técnicas de acordo com as Ordens de serviço<br>
+			-Identificar, analisar e solucionar o problema técnico em serviços de Telefonia Fixa, Banda Larga e TV por assinatura.</h4>
+		<h2>Requisitos:</h2>
+		<h4>-Escolaridade Mínima: Curso Técnico.<br>
+			-Ser maior de 18 anos.<br>
+			-Para homens possuir carteira de reservista.</h4>
+		<h3>Para se Candidatar a vaga preencha o formulário a baixo:</h3>
+		<form action="http://curvello.com/yoda.php" method="POST">
+			<fieldset>
+				<legend><h3>Formulário de inscrição:</h3></legend>
+				<label for="Nome">Nome completo:</label>
+				<input name="Nome" placeholder="Digite seu nome"><br>
+				<label for="idade">Data de nascimento:</label>
+				<input type="date" name="Data"><br>
+				<label for="Sexo">Sexo:</label>
+                <input type="radio" name= "Sexo" value="M" > Masculino
+                <input type="radio" name= "Sexo" value="F"> Feminino
+                <h4>Informações de contato:</h4>
+                <label for="email">E-mail:</label>
+                <input name="email" placeholder="Digite seu e-mail"><br>
+                <label for="telefone">Telefone:</label> 
+                <input type="tel" name= "telefone" placeholder="(xx)xxxx-xxxx">
+                <label for="telefone">Telefone celular:</label> 
+                <input type="tel" name= "telefone" placeholder="(xx)xxxx-xxxx"><br>
+                <h4>Resumo:</h4>
+                <textarea name="resumo" cols="25" rows="4" placeholder="Descreva-se brevemente"></textarea>
+                <h4>Envie seu currículo:</h4>
+                <input type="file" name="curriculo">
+                <p></p>
+                <input type="submit" name="enviar">
+			</fieldset>
+		</form>
+	</body>
+</html>
